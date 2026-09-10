@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="A responsive web design practice project demonstrating CSS media queries."
+    >
+    <title>Responsive Web Design | Media Queries Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <h1 class="logo">Responsive Design</h1>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#breakpoints">Breakpoints</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">CSS Media Queries Practice</p>
+
+                <h2>One Website. Every Screen Size.</h2>
+
+                <p>
+                    This project demonstrates how CSS media queries,
+                    Flexbox, and Grid can be used to create layouts
+                    that adapt to desktops, tablets, and mobile devices.
+                </p>
+
+                <a class="button" href="#features">
+                    Explore the Design
+                </a>
+            </div>
+        </section>
+
+        <section class="features section" id="features">
+            <div class="container">
+                <h2 class="section-title">Responsive Design Features</h2>
+
+                <div class="card-grid">
+
+                    <article class="card">
+                        <h3>Desktop Layout</h3>
+                        <p>
+                            Larger screens use additional horizontal
+                            space to display content in multiple columns.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Tablet Layout</h3>
+                        <p>
+                            Medium-sized screens adjust spacing,
+                            navigation, and card layouts for readability.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Mobile Layout</h3>
+                        <p>
+                            Smaller screens use stacked content,
+                            simplified navigation, and comfortable spacing.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="breakpoints section" id="breakpoints">
+            <div class="container">
+                <h2 class="section-title">Media Query Breakpoints</h2>
+
+                <div class="breakpoint-grid">
+
+                    <article class="breakpoint-card">
+                        <span>Desktop</span>
+                        <strong>1024px+</strong>
+                    </article>
+
+                    <article class="breakpoint-card">
+                        <span>Tablet</span>
+                        <strong>768px - 1023px</strong>
+                    </article>
+
+                    <article class="breakpoint-card">
+                        <span>Mobile</span>
+                        <strong>Below 768px</strong>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container about-content">
+                <div>
+                    <p class="eyebrow">About This Project</p>
+
+                    <h2>Learning Responsive Web Development</h2>
+
+                    <p>
+                        This project was created to practice responsive
+                        web design techniques using HTML and CSS.
+                        The layout changes based on the width of the
+                        browser using CSS media queries.
+                    </p>
+                </div>
+
+                <div class="technology-box">
+                    <h3>Technologies Used</h3>
+
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>Flexbox</p>
+                    <p>CSS Grid</p>
+                    <p>Media Queries</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                Responsive Web Design Practice Project
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
